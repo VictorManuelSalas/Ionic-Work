@@ -1,0 +1,20 @@
+<ion-header>
+  <!--Asi se agrega un color en una etiqueta seria solo con el nombre de el estilo que esta en variables.scss 
+    luego ya se define en la carpeta de scss de esta carpeta 
+-->
+  <ion-toolbar color="miestilo">
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <!--Se cambio la etiqueta ya que asi no se podria asignar le estilos propios y se metio en un div para poder centrar lo -->
+  <div class="centrar">
+  <!--Este es el comando para un boton que sirve para mover de paginas, donde en routelink se agrega la ruta que esta en
+  el archivo de app-routing.module.ts y copiamos la ruta de la pagina que queremos ir-->
+
+  <!--Esta es la manera desde HTML de hacer el boton que nos dirija a otra pagina, otra forma es en tayscript el cual estara en la pagina de costumers-->
+  <button ion-button class="btn" [routerLink]="['/customers']">Go to customers</button>
+</div>
+</ion-content>
