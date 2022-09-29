@@ -5,16 +5,20 @@ ion-title{
     color: white;
 }
 .centrar{
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center ;
 }
 .btn{
-    margin: 1rem 0;
     background-color: var(--ion-color-miestilo-shade);
     color: rgb(255, 255, 255);
     padding: 20px 30px 20px 30px;
     border-radius: 10px;
     font-size: 20px;
+    margin:  0.5rem;
+}
+.btn:hover{
+    box-shadow: -1px 6px 32px 0px rgba(0,0,0,0.74);
+    -webkit-box-shadow: -1px 6px 32px 0px rgba(0,0,0,0.74);
+    -moz-box-shadow: -1px 6px 32px 0px rgba(0,0,0,0.74);
 }
