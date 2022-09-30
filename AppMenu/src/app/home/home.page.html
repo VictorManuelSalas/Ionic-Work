@@ -8,13 +8,31 @@
 </ion-header>
 
 <ion-content>
-  
-  <!--Se cambio la etiqueta ya que asi no se podria asignar le estilos propios y se metio en un div para poder centrar lo -->
-  <div class="centrar">
-  <!--Este es el comando para un boton que sirve para mover de paginas, donde en routelink se agrega la ruta que esta en
-  el archivo de app-routing.module.ts y copiamos la ruta de la pagina que queremos ir-->
+  <ion-grid>
+    <ion-row>
+      <!--El sizeLg es para pantallas grandes, el Md es mediana y el Xs es pequeña-->
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6"> 
+       <div class="texto"> Texto1</div> 
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6">
+        <div class="texto"> Texto1</div> 
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="9">
+        <div class="texto"> Texto1</div> 
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="3">
+        <div class="texto"> Texto1</div> 
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
-  <!--Esta es la manera desde HTML de hacer el boton que nos dirija a otra pagina, otra forma es en tayscript el cual estara en la pagina de costumers-->
+
+  <!--Se cambio la etiqueta ya que asi no se podria asignar le estilos propios y se metio en un div para poder centrar lo
+  <div class="centrar">
+  Este es el comando para un boton que sirve para mover de paginas, donde en routelink se agrega la ruta que esta en
+  el archivo de app-routing.module.ts y copiamos la ruta de la pagina que queremos ir
+
+  Esta es la manera desde HTML de hacer el boton que nos dirija a otra pagina, otra forma es en tayscript el cual estara en la pagina de costumers
   <button ion-button class="btn" [routerLink]="['/customers']">Go to customers</button>
-</div>
+</div> -->
 </ion-content>
