@@ -10,78 +10,20 @@
     Recent Conversations
    </ion-list-header>
 
-   <ion-item>
+   <!-- Aqui en el ion item se usa una condicion for para poder pasar por cada uno de los elementos del arreglo users, 
+dentro de esta condicion se define una variable la cual sera la que se le asigne el valor del objeto del lado derecho -->
+   <ion-item *ngFor="let user of users">
+
     <ion-avatar slot="start">
-      <img src="../../assets/customers-img/raul.jpg">
+      <!-- Para aser referencia a los datos del JSON es mediante doble llave y la variable que se definio en el ngFor y mediante el punto 
+      se recorre por los datos-->
+      <img src="../../assets/customers-img/{{user.image}}">
     </ion-avatar>
 
     <ion-label>
-      <h2>Finn</h2>
-      <h3>I'm a big deal</h3>
-      <p>Listen, I've had a pretty messed up day...</p>
-
-    </ion-label>
-    <ion-avatar slot="end">
-      <ion-icon class="icono" name="trash"></ion-icon>
-    </ion-avatar>
-   </ion-item>
-
-   <ion-item>
-    <ion-avatar slot="start">
-      <img src="../../assets/customers-img/s.jpg">
-    </ion-avatar>
-
-    <ion-label>
-      <h2>Finn</h2>
-      <h3>I'm a big deal</h3>
-      <p>Listen, I've had a pretty messed up day...</p>
-
-    </ion-label>
-    <ion-avatar slot="end">
-      <ion-icon class="icono" name="trash"></ion-icon>
-    </ion-avatar>
-   </ion-item>
-   <ion-item>
-    <ion-avatar slot="start">
-      <img src="../../assets/customers-img/sanches.jpg">
-    </ion-avatar>
-
-    <ion-label>
-      <h2>Finn</h2>
-      <h3>I'm a big deal</h3>
-      <p>Listen, I've had a pretty messed up day...</p>
-
-    </ion-label>
-    <ion-avatar slot="end">
-      <ion-icon class="icono" name="trash"></ion-icon>
-    </ion-avatar>
-   </ion-item>
-
-   <ion-item>
-    <ion-avatar slot="start">
-      <img src="../../assets/customers-img/saul.jpg">
-    </ion-avatar>
-
-    <ion-label>
-      <h2>Finn</h2>
-      <h3>I'm a big deal</h3>
-      <p>Listen, I've had a pretty messed up day...</p>
-
-    </ion-label>
-    <ion-avatar slot="end">
-      <ion-icon class="icono" name="trash"></ion-icon>
-    </ion-avatar>
-   </ion-item>
-
-   <ion-item>
-    <ion-avatar slot="start">
-      <img src="../../assets/customers-img/ulktimo.jpg">
-    </ion-avatar>
-
-    <ion-label>
-      <h2>Finn</h2>
-      <h3>I'm a big deal</h3>
-      <p>Listen, I've had a pretty messed up day...</p>
+      <h2>{{ user.name }}</h2>
+      <h3>{{ user.state }}</h3>
+      <p>{{ user.description }}</p>
 
     </ion-label>
     <ion-avatar slot="end">
