@@ -22,6 +22,10 @@ export class CustomersPage implements OnInit {
 
     //Esta funcion es la que se ejecuta al refrescar o cargar la pagina
   ngOnInit() {
+    //Esta es solo para practicar el if
+    this.permisos = true;
+
+    
     this.getUsers().subscribe(res => {
       console.log("Res", res)
       this.users = res;
@@ -30,6 +34,9 @@ export class CustomersPage implements OnInit {
 
   //Variable creada para almacenar todos los datos recibidos, esta variable es de tipo cualquiera y es una arreglo vacio
   users: any = [];
+
+  //Variable para practicar el *ngIf
+  permisos: boolean ;
 
   //Esta es la funcion que nos permite cambiar la pagina gracias a su contenido el cual usa la ruta de home
   goToHome(){
