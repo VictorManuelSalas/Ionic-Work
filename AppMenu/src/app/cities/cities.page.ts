@@ -5,6 +5,8 @@ import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http'
 //Importacion de la propiedad map para poder mapiar el json ya que con esto nos permite generar un nuevo arreglo mediante otro 
 import { map } from 'rxjs/operators'
+
+//Importacion de Toast
 import { ToastController } from '@ionic/angular';
 
 @Component({
