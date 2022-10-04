@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http'
 //Importacion de la propiedad map para poder mapiar el json ya que con esto nos permite generar un nuevo arreglo mediante otro 
 import { map } from 'rxjs/operators'
+import { ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'app-cities',
@@ -16,7 +17,8 @@ export class CitiesPage implements OnInit {
   cities: any = [];
 
   constructor(private router: Router,
-    private http: HttpClient) { }
+    private http: HttpClient,
+    public toastController: ToastController) { }
 
   ngOnInit() {
     this.getCities().subscribe(res => {
@@ -36,6 +38,16 @@ export class CitiesPage implements OnInit {
         return res.data;
       })
     )
+  }
+
+  //Funcion del Toast
+  async presentToast1(){
+    const toast = await this.toastController.create({
+      message: 'Ciudad seleccionada',
+      duration: 2000,
+      position: "bottom" 
+    });
+    toast.present();
   }
 
 }
