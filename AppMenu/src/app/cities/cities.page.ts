@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http'
 import { map } from 'rxjs/operators'
 
 //Importacion de Toast
-import { ToastController } from '@ionic/angular';
+import { AlertController, ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'app-cities',
@@ -20,7 +20,8 @@ export class CitiesPage implements OnInit {
 
   constructor(private router: Router,
     private http: HttpClient,
-    public toastController: ToastController) { }
+    public toastController: ToastController,
+    public alertController: AlertController) { }
 
   ngOnInit() {
     this.getCities().subscribe(res => {
@@ -51,5 +52,35 @@ export class CitiesPage implements OnInit {
     });
     toast.present();
   }
+
+
+  //Alert 
+  async Alert(){
+    const alert = await this.alertController.create({
+      header: "Abrir Imagen",
+      message: "¿ Quieres abrir el mensaje ?",
+      buttons: [
+        {
+          text: "Si",
+          handler: () => {
+            console.log("Abriendo...")
+          }
+        },
+        {
+          text: "No",
+          handler: () => {
+            console.log("Entendido xd")
+          }
+        }
+    ]
+    });
+    await alert.present()
+    let result = await alert.onDidDismiss();
+    console.log(result);
+  }
+
+
+
+
 
 }
