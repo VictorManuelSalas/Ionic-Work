@@ -75,8 +75,7 @@ export class CitiesPage implements OnInit {
     ]
     });
     await alert.present()
-    let result = await alert.onDidDismiss();
-    console.log(result);
+    await alert.onDidDismiss();
   }
 
 
