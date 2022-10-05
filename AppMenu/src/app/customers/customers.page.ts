@@ -36,7 +36,10 @@ export class CustomersPage implements OnInit {
 
   //Variable creada para almacenar todos los datos recibidos, esta variable es de tipo cualquiera y es una arreglo vacio
   users: any = [];
-searchedUser: any;
+
+  // Variable para los usuarios buscados
+  searchedUser: any;
+  
   //Variable para practicar el *ngIf
   permisos: boolean ;
 
@@ -58,8 +61,8 @@ searchedUser: any;
     )
   }
 
-  searchCustomer(event){
-    const text = event.target.value;
+  searchCustomer(textoagregado){
+    const text = textoagregado.target.value;
     this.searchedUser = this.users;
     if(text && text.trim() != ''){
       this.searchedUser = this.searchedUser.filter((user: any) =>{
