@@ -30,7 +30,7 @@ export class CustomersPage implements OnInit {
       console.log("Res", res)
       this.users = res;
 
-      //Se agrega aqui para que los muestre 
+      //Se agrega aqui para que los muestre por default
       this.searchedUser = this.users;
     });
   }
