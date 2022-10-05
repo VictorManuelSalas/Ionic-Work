@@ -29,12 +29,14 @@ export class CustomersPage implements OnInit {
     this.getUsers().subscribe(res => {
       console.log("Res", res)
       this.users = res;
+
+      this.searchedUser = this.users;
     });
   }
 
   //Variable creada para almacenar todos los datos recibidos, esta variable es de tipo cualquiera y es una arreglo vacio
   users: any = [];
-
+searchedUser: any;
   //Variable para practicar el *ngIf
   permisos: boolean ;
 
@@ -54,5 +56,15 @@ export class CustomersPage implements OnInit {
         return res.data;
       })
     )
+  }
+
+  searchCustomer(event){
+    const text = event.target.value;
+    this.searchedUser = this.users;
+    if(text && text.trim() != ''){
+      this.searchedUser = this.searchedUser.filter((user: any) =>{
+        return (user.name.toLowerCase().indexOf(text.toLowerCase()) > -1);
+      })
+    }
   }
 }

@@ -2,6 +2,12 @@
   <ion-toolbar color="miestilo">
     <ion-title>Customers</ion-title>
   </ion-toolbar>
+
+  <ion-searchbar 
+  placeholder="Buscar" 
+  animated 
+  (ionChange)="searchCustomer($event)"
+  ></ion-searchbar>
 </ion-header>
 
 <ion-content>
@@ -13,7 +19,7 @@
 
    <!-- Aqui en el ion item se usa una condicion for para poder pasar por cada uno de los elementos del arreglo users, 
 dentro de esta condicion se define una variable la cual sera la que se le asigne el valor del objeto del lado derecho -->
-   <ion-item *ngFor="let user of users">
+   <ion-item *ngFor="let user of searchedUser">
 
     <ion-avatar slot="start">
       <!-- Para aser referencia a los datos del JSON es mediante doble llave y la variable que se definio en el ngFor y mediante el punto 
