@@ -1,21 +1,25 @@
 {
     "data": [
         {
+            "id": 1,
             "name": "Nueva Orleans",
             "image": "orlans.jpg",
             "description": "Nueva Orleans es una ciudad al sureste del estado de Luisiana, Estados Unidos, sobre el delta del río Misisipi."
         },
         {
+            "id": 2,
             "name": "Japon",
             "image": "japon.jpg",
             "description": "Japón, oficialmente el Estado del Japón, es un país insular de Asia Oriental ubicado en el noroeste del océano Pacífico. "
         },
         {
+            "id": 3,
             "name": "Canada",
             "image": "canada.jpg",
             "description": "Canadá es un país soberano en América del Norte, cuya forma de gobierno es la monarquía parlamentaria federal."
         },
         {
+            "id": 4,
             "name": "Brasil",
             "image": "brasil.jpg",
             "description": "Brasil, cuyo nombre oficial es República Federativa de Brasil, es un país soberano de América del Sur que comprende la mitad oriental."

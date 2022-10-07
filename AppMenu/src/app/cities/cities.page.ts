@@ -57,8 +57,8 @@ export class CitiesPage implements OnInit {
   //Alert 
   async Alert(){
     const alert = await this.alertController.create({
-      header: "Abrir Imagen",
-      message: "¿ Quieres abrir el mensaje ?",
+      header: "Ciudades",
+      message: "¿ Quieres ver mas informacion sobre esta ciudad ?",
       buttons: [
         {
           text: "Si",
@@ -70,6 +70,7 @@ export class CitiesPage implements OnInit {
           text: "No",
           handler: () => {
             console.log("Entendido xd")
+            this.router.navigate(['/cities'])
           }
         }
     ]

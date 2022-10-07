@@ -1,0 +1,44 @@
+ion-toolbar{
+    background-color: var(--ion-color-miestilo);
+}
+ion-title{
+    color: white;
+}
+ion-card{
+    margin: 1rem;
+    
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.card-body{
+    padding: 0 1rem;
+
+    h2{
+        color: black;
+        font-weight: bold;
+    }
+    p{
+        text-align: justify;
+    }
+}
+
+.carrusel{
+    padding: 0 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    align-items: center;
+}
+
+.card{
+    background-color: blue;
+    padding: 2rem;
+    border-radius: 2rem;
+}
