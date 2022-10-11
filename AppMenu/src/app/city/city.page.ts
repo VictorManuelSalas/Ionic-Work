@@ -18,6 +18,14 @@ export class CityPage implements OnInit {
   name: string;
   image: string;
   description: string;
+  cosa1: string;
+  cosa2: string;
+  cosa3: string;
+  cosa4 : string;
+  icon1: string;
+  icon2: string;
+  icon3: string;
+  icon4: string;
 
   //Se copiaron del ts de ciudades ya que con esto sirve la funcion de getCities
   constructor(
@@ -53,8 +61,15 @@ export class CityPage implements OnInit {
       //cities[finalID].(nombre del elemento), this.image = this.cities.this.finalID.image; esta es una forma que no nos permite iterar 
       this.name = this.cities[this.finalID].name;
       this.image = this.cities[this.finalID].image;
+      this.cosa1 = this.cities[this.finalID].cosa1;
+      this.cosa2 = this.cities[this.finalID].cosa2;
+      this.cosa3 = this.cities[this.finalID].cosa3;
+      this.cosa4 = this.cities[this.finalID].cosa4;
+      this.icon1 = this.cities[this.finalID].icon1;
+      this.icon2 = this.cities[this.finalID].icon2;
+      this.icon3 = this.cities[this.finalID].icon3;
+      this.icon4 = this.cities[this.finalID].icon4;
       this.description = this.cities[this.finalID].description;
-
 
 
     });

@@ -4,25 +4,52 @@
             "id": 1,
             "name": "Nueva Orleans",
             "image": "orlans.jpg",
-            "description": "Nueva Orleans es una ciudad al sureste del estado de Luisiana, Estados Unidos, sobre el delta del río Misisipi."
+            "description": "Nueva Orleans es una ciudad al sureste del estado de Luisiana, Estados Unidos, sobre el delta del río Misisipi. Nueva Orleans es el principal puerto del río Misisipi y el séptimo mayor del país —por detrás de Sur de Luisiana, Nueva York (est. Nueva York), Jersey City (Nueva Jersey), Beaumont (Texas), Long Beach (California) y Beach-Norfolk-Newport News (Virginia). Es una ciudad multicultural —con especial influencia africana, latinoamericana, española y francesa— conocida por sus festivales, su música y su cocina. Eventos como el Mardi Gras, Jazz Fest y el Sugar Bowl (tazón del azúcar) mantienen a la ciudad como un destino turístico. En Nueva Orleans nacieron músicos de jazz como Louis Armstrong, Wynton Marsalis y Harry Connick, Jr., el vocalista de Heavy Metal Phil Anselmo y el rapero Lil Wayne. También es la cuna de los escritores Tennesse Williams, Anne Rice, Sherrilyn Kenyon y John Kennedy Toole.",
+            "cosa1": "Crusero en barco",
+            "cosa4": "Vida nocturna y bares",
+            "cosa2": "Su historia terrorifica",
+            "cosa3": "Visitar lugares turisticos",
+            "icon1": "boat",
+            "icon2": "rainy",
+            "icon3": "walk",
+            "icon4": "beer"
+            
+        
         },
         {
             "id": 2,
             "name": "Japon",
             "image": "japon.jpg",
-            "description": "Japón, oficialmente el Estado del Japón, es un país insular de Asia Oriental ubicado en el noroeste del océano Pacífico. "
+            "cosa1": "Crusero en barco",
+            "cosa4": "Vida nocturna y bares",
+            "cosa2": "Su historia terrorifica",
+            "cosa3": "Visitar lugares turisticos",
+            "icon1": "boat",
+            "icon2": "rainy",
+            "icon3": "walk",
+            "icon4": "beer",
+            "description": "Japón, oficialmente el Estado del Japón, es un país insular de Asia Oriental ubicado en el noroeste del océano Pacífico. Japón es una gran potencia y miembro de numerosas organizaciones internacionales, incluidas las Naciones Unidas (desde 1956), la OCDE y el G7. Aunque ha renunciado a su derecho a declarar la guerra, el país mantiene Fuerzas de Autodefensa que están clasificadas como el cuarto ejército más poderoso del mundo. Después de la Segunda Guerra Mundial, Japón experimentó un alto crecimiento económico, convirtiéndose en 1972 en la segunda economía más grande del mundo antes de ser superado por China en 2010.13​ A pesar del estancamiento económico desde la «década perdida», la economía del país sigue siendo la tercera más grande por PIB nominal y la cuarta más grande por PPA. Líder en las industrias automotriz y electrónica, Japón ha realizado importantes contribuciones a la ciencia y la tecnología. Clasificado como el segundo país más alto en el índice de desarrollo humano de Asia después de Singapur, Japón tiene la segunda esperanza de vida más alta del mundo, aunque está experimentando una disminución de la población. La cultura japonesa es bien conocida en todo el mundo, incluido su arte, cocina, música y cultura popular, que abarca industrias prominentes de la animación los videojuegos y el manga. "
         },
         {
             "id": 3,
             "name": "Canada",
             "image": "canada.jpg",
-            "description": "Canadá es un país soberano en América del Norte, cuya forma de gobierno es la monarquía parlamentaria federal."
+           
+            "description": "Canadá es un país soberano en América del Norte, cuya forma de gobierno es la monarquía parlamentaria federal. El territorio ocupado por Canadá fue habitado por los diversos grupos de población aborigen durante milenios. Desde finales del siglo xv, numerosas expediciones británicas y francesas exploraron a lo largo de la costa atlántica, donde más tarde se establecieron. Francia cedió casi todas sus colonias norteamericanas en 1763 después de la Guerra Franco-india. En 1867, con la unión de tres colonias británicas norteamericanas mediante la Confederación, Canadá se formó como un dominio federal de cuatro provincias.5​6​ Esto hizo que comenzara una acumulación de provincias y territorios, y un proceso de autonomía frente al Reino Unido. Esta autonomía cada vez mayor se puso de relieve en el Estatuto de Westminster de 1931 y culminó en el Acta de Constitución de Canadá de 1982, que rompió los vestigios de la dependencia jurídica en el parlamento británico.7​ Está gobernada como una democracia parlamentaria y monarquía constitucional con Carlos III como jefe de Estado. Es un país bilingüe con el inglés y el francés como lenguas oficiales en el ámbito federal."
         },
         {
             "id": 4,
             "name": "Brasil",
             "image": "brasil.jpg",
-            "description": "Brasil, cuyo nombre oficial es República Federativa de Brasil, es un país soberano de América del Sur que comprende la mitad oriental."
+            "cosa1": "Visitar la Amazonia",
+            "cosa4": "Visitar la playa",
+            "cosa2": "Comer rico",
+            "cosa3": "Visitar Lago Azul",
+            "icon1": "leaf",
+            "icon2": "fish",
+            "icon3": "fast-food",
+            "icon4": "map",
+            "description": "Brasil, cuyo nombre oficial es República Federativa de Brasil, es un país soberano de América del Sur que comprende la mitad oriental. La región del actual Brasil, hasta entonces habitado por indígenas, tuvo su primer contacto con los europeos en el año 1500 d. C. a través de una expedición portuguesa liderada por Pedro Álvares Cabral. Tras el Tratado de Tordesillas, el territorio brasileño fue el segmento del continente americano que correspondió al reino de Portugal, del cual obtuvo su independencia el 7 de septiembre de 1822. Así, el país pasó de ser parte central del reino de Portugal a un imperio para finalmente convertirse en una república. Su primera capital fue Salvador de Bahía, que fue sustituida por Río de Janeiro hasta que se construyó una nueva capital, Brasilia. Su constitución actual, formulada en 1988, define a Brasil como una república federativa presidencialista.13​ La federación está formada por la unión del Distrito Federal, los 26 estados y los 5570 municipios.13​17​nota 1​ A pesar de que sus más de 215 millones de habitantes19​ hacen de Brasil el séptimo país más poblado del mundo, presenta un bajo índice de densidad poblacional. Esto se debe a que la mayor parte de la población se concentra a lo largo del litoral, mientras que el interior del territorio aún está marcado por enormes vacíos demográficos. El idioma oficial y el más hablado es el portugués, que lo convierte en el mayor país lusófono del mundo.15​ Por su parte, la religión con más seguidores es el catolicismo, siendo el país con mayor número de católicos nominales del mundo. La sociedad brasileña es considerada una sociedad multiétnica al estar formada por descendientes de europeos, indígenas, africanos y asiáticos."
         }
     ]
 }

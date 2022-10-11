@@ -1,18 +1,36 @@
-ion-toolbar{
-    background-color: var(--ion-color-miestilo);
+ion-toolbar {
+  background-color: var(--ion-color-miestilo);
 }
-ion-title{
-    color: white;
+ion-title {
+  color: white;
 }
 
-.card-body{
-    padding: 0 1rem;
+.card-body {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    h2{
-        color: black;
-        font-weight: bold;
-    }
-    p{
-        text-align: justify;
-    }
+  h2 {
+    color: black;
+    font-weight: bold;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
+.btn {
+  background-color: var(--ion-color-miestilo-shade);
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+.btn:hover {
+  box-shadow: -1px 6px 32px 0px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: -1px 6px 32px 0px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: -1px 6px 32px 0px rgba(0, 0, 0, 0.74);
 }

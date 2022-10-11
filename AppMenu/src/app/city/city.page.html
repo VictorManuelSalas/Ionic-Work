@@ -1,7 +1,9 @@
 <ion-header>
   <ion-toolbar color="miestilo">
-    <ion-title>{{ name }}</ion-title>
+    <ion-title>{{ name }} <ion-icon name="earth"></ion-icon></ion-title> 
+    
   </ion-toolbar>
+  
 </ion-header>
 
 <ion-content>
@@ -11,26 +13,36 @@
   <div class="card-body">
     <h2>{{ name }}</h2>
     <p>{{ description }}</p>
+
+    <h2>Cosas que puedes hacer</h2> 
   </div>
 
+  
   <div class="carrusel">
-    <article class="card">
-      <h2>{{ name }}</h2>
+    <article class="card" *ngIf="cosa1 ! '' ">
+      <h2>{{ cosa1 }}</h2>
+      <ion-icon class="icono" name="{{icon1}}"></ion-icon>
+
     </article>
-    <article class="card">
-      <h2>{{ name }}</h2>
+    <article class="card" *ngIf="cosa2 ! '' ">
+      <h2 >{{ cosa2 }}</h2>
+      <ion-icon class="icono" name="{{icon2}}"></ion-icon>
+
     </article>
-    <article class="card">
-      <img src="../../assets/img/{{image}}">
+   <article class="card" *ngIf="cosa3 ! '' ">
+      <h2 >{{cosa3}}</h2>
+      <ion-icon class="icono" name="{{icon3}}"></ion-icon>
+
     </article>
-    <article class="card">
-      <h1>hola</h1>
+    <article class="card" *ngIf="cosa4 ! '' ">
+      <h2>{{cosa4}}</h2>
+      <ion-icon class="icono" name="{{icon4}}"></ion-icon>
     </article>
-    <article class="card">
-      <h1>hola</h1>
-    </article>
-    <article class="card">
-      <h1>hola</h1>
-    </article>
+
+    <article class="card" *ngIf="cosa1 === '' ">
+      <h2>Proximamente</h2>
+      <ion-icon class="icono" name="alert-circle"></ion-icon>
+
+    </article>    
   </div>
 </ion-content>
