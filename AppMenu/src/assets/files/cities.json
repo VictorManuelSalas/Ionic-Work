@@ -20,21 +20,12 @@
             "id": 2,
             "name": "Japon",
             "image": "japon.jpg",
-            "cosa1": "Crusero en barco",
-            "cosa4": "Vida nocturna y bares",
-            "cosa2": "Su historia terrorifica",
-            "cosa3": "Visitar lugares turisticos",
-            "icon1": "boat",
-            "icon2": "rainy",
-            "icon3": "walk",
-            "icon4": "beer",
             "description": "Japón, oficialmente el Estado del Japón, es un país insular de Asia Oriental ubicado en el noroeste del océano Pacífico. Japón es una gran potencia y miembro de numerosas organizaciones internacionales, incluidas las Naciones Unidas (desde 1956), la OCDE y el G7. Aunque ha renunciado a su derecho a declarar la guerra, el país mantiene Fuerzas de Autodefensa que están clasificadas como el cuarto ejército más poderoso del mundo. Después de la Segunda Guerra Mundial, Japón experimentó un alto crecimiento económico, convirtiéndose en 1972 en la segunda economía más grande del mundo antes de ser superado por China en 2010.13​ A pesar del estancamiento económico desde la «década perdida», la economía del país sigue siendo la tercera más grande por PIB nominal y la cuarta más grande por PPA. Líder en las industrias automotriz y electrónica, Japón ha realizado importantes contribuciones a la ciencia y la tecnología. Clasificado como el segundo país más alto en el índice de desarrollo humano de Asia después de Singapur, Japón tiene la segunda esperanza de vida más alta del mundo, aunque está experimentando una disminución de la población. La cultura japonesa es bien conocida en todo el mundo, incluido su arte, cocina, música y cultura popular, que abarca industrias prominentes de la animación los videojuegos y el manga. "
         },
         {
             "id": 3,
             "name": "Canada",
             "image": "canada.jpg",
-           
             "description": "Canadá es un país soberano en América del Norte, cuya forma de gobierno es la monarquía parlamentaria federal. El territorio ocupado por Canadá fue habitado por los diversos grupos de población aborigen durante milenios. Desde finales del siglo xv, numerosas expediciones británicas y francesas exploraron a lo largo de la costa atlántica, donde más tarde se establecieron. Francia cedió casi todas sus colonias norteamericanas en 1763 después de la Guerra Franco-india. En 1867, con la unión de tres colonias británicas norteamericanas mediante la Confederación, Canadá se formó como un dominio federal de cuatro provincias.5​6​ Esto hizo que comenzara una acumulación de provincias y territorios, y un proceso de autonomía frente al Reino Unido. Esta autonomía cada vez mayor se puso de relieve en el Estatuto de Westminster de 1931 y culminó en el Acta de Constitución de Canadá de 1982, que rompió los vestigios de la dependencia jurídica en el parlamento británico.7​ Está gobernada como una democracia parlamentaria y monarquía constitucional con Carlos III como jefe de Estado. Es un país bilingüe con el inglés y el francés como lenguas oficiales en el ámbito federal."
         },
         {

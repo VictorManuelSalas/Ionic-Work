@@ -29,6 +29,10 @@ const routes: Routes = [
     //Obtendra un elemento agregado al pathing
     path: 'city/:id',
     loadChildren: () => import('./city/city.module').then( m => m.CityPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   }
 ];
 

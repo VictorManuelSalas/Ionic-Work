@@ -16,6 +16,7 @@ export class AppComponent {
     { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
     { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+    { title: 'Login', url: '/login', icon: 'log-in' },
     
   ];
   //Esta es el arreglo de los labels que se muestran abajo en el menu 

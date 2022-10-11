@@ -52,7 +52,7 @@ export class CityPage implements OnInit {
 
     //Se copio de la pagina ts de ciudades 
     this.getCities().subscribe(res => {
-      console.log("Res", res)
+      console.table(res)
 
       //Se pasan los datos hacia cities para almacenar las en el arreglo vacio
       this.cities = res;

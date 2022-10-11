@@ -39,10 +39,9 @@
       <ion-icon class="icono" name="{{icon4}}"></ion-icon>
     </article>
 
-    <article class="card" *ngIf="cosa1 === '' ">
+    <article class="card" *ngIf="!cosa1 "> <!--Aqui el if declara que si cosa1 es falso o vacio que lo muestre-->
       <h2>Proximamente</h2>
       <ion-icon class="icono" name="alert-circle"></ion-icon>
-
     </article>    
   </div>
 </ion-content>

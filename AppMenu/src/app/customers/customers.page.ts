@@ -27,7 +27,8 @@ export class CustomersPage implements OnInit {
 
     
     this.getUsers().subscribe(res => {
-      console.log("Res", res)
+      //Mustra la info en una tabla en la consola
+      console.table(res)
       this.users = res;
 
       //Se agrega aqui para que los muestre por default

@@ -25,7 +25,7 @@ export class CitiesPage implements OnInit {
 
   ngOnInit() {
     this.getCities().subscribe(res => {
-      console.log("Res", res)
+      console.table(res)
       this.cities = res;
     });
   }
