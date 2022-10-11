@@ -16,6 +16,10 @@ import { AlertController, ToastController } from '@ionic/angular';
 })
 export class CitiesPage implements OnInit {
 
+  //Esta variable se le da el valor desde el localstorage que obtienen el elementollamado token
+  token = localStorage.getItem('token')
+
+
   cities: any = [];
 
   constructor(private router: Router,
@@ -24,6 +28,11 @@ export class CitiesPage implements OnInit {
     public alertController: AlertController) { }
 
   ngOnInit() {
+    //Esto es para saber como usar el local storage
+    console.log("token: ", this.token)
+    localStorage.removeItem('token')
+
+
     this.getCities().subscribe(res => {
       console.table(res)
       this.cities = res;

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -9,12 +10,13 @@ export class LoginPage implements OnInit {
 
   token = 'hgf565665f6'
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
   login(){
     localStorage.setItem('token', this.token)
+    this.router.navigate(["/home"]);
   }
 }
