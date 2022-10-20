@@ -1,18 +1,11 @@
-<ion-header>
-  <ion-toolbar color="miestilo">
-    <ion-title>Customers</ion-title>
-  </ion-toolbar>
+<app-header></app-header>
 
-  <!--Barra de busqueda,
-  animated es
--->
-  <ion-searchbar 
+
+<ion-searchbar 
   placeholder="Buscar" 
   animated 
   (ionChange)="searchCustomer($event)"
   ></ion-searchbar>
-</ion-header>
-
 <ion-content>
   <!--Este es para practicar el if, donde si es true muestra los clientes-->
   <ion-list *ngIf="permisos">
