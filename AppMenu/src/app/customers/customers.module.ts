@@ -7,10 +7,12 @@ import { IonicModule } from '@ionic/angular';
 import { CustomersPageRoutingModule } from './customers-routing.module';
 
 import { CustomersPage } from './customers.page';
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
   imports: [
-    
+    //Este es el compoenente el cual se maneja como modulo 
+    ComponentsModule,
     CommonModule,
     FormsModule,
     IonicModule,
